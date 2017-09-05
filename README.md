@@ -5,11 +5,16 @@ This is a very crude port of the [CoreUI](https://github.com/mrholek/CoreUI-Free
 First clone or download this repository and cd to that directory.
 Make sure you have bower, gulp and nmp installed on your system. Set the storage folder permissions to 777. After this run the following commands.
 ```
-composer install
-npm install
+npm install --no-bin-links
 bower install
+composer install
 gulp --production
 cp .env.example .env
+```
+
+fill the .env file
+
+```
 php artisan key:generate
 php artisan serve
 ```
