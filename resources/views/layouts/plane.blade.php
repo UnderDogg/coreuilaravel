@@ -14,13 +14,13 @@
   <link href="{{ asset("assets/css/simple-line-icons.css") }}" rel="stylesheet">
   <link href="{{ asset("assets/css/style.css") }}" rel="stylesheet">
 </head>
-  @yield('body')
-  <script src="{{ asset("assets/js/libs/jquery.min.js") }}" type="text/javascript"></script>
-  <script src="{{ asset("assets/js/libs/tether.min.js") }}" type="text/javascript"></script>
-  <script src="{{ asset("assets/js/libs/bootstrap.min.js") }}" type="text/javascript"></script>
-  <script src="{{ asset("assets/js/libs/pace.min.js") }}" type="text/javascript"></script>
-  <script src="{{ asset("assets/js/libs/Chart.min.js") }}" type="text/javascript"></script>
-  <script src="{{ asset("assets/js/app.js") }}" type="text/javascript"></script>
-  @yield('js')
+@yield('body')
+<script src="{{ asset("assets/js/libs/jquery.min.js") }}" type="text/javascript"></script>
+<script src="{{ asset("assets/js/libs/tether.min.js") }}" type="text/javascript"></script>
+<script src="{{ asset("assets/js/libs/bootstrap.min.js") }}" type="text/javascript"></script>
+<script src="{{ asset("assets/js/libs/pace.min.js") }}" type="text/javascript"></script>
+<script src="{{ asset("assets/js/libs/Chart.min.js") }}" type="text/javascript"></script>
+<script src="{{ asset("assets/js/app.js") }}" type="text/javascript"></script>
+@yield('js')
 </body>
 </html>
